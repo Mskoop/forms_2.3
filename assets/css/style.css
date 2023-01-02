@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+form {
+   /*  display: inline-block; */
+    background-color: #999;
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 0.5px solid black;
+    padding: 5vh 0;
+    padding-left: 3vw;
+}
+
+form > div input {
+    color:red;
+
+}
+form select {
+    color:blueviolet;
+}
+form div {
+    display: flex;
+    
+    align-items:center;
+    line-height: 1.5rem;
+    gap:.5rem;
+    font-size: 1.rem;
+}
+.rechts1, .rechts2, .rechts4 {
+    margin-left: 30%;
+}
+.rechts3, .rechts4, .rechts5, .rechts6 {
+    margin-left: 34%;
+}
+.rechts7 {
+    margin-left: 20%;
+}
+.rechts8 {
+    margin-left: 20%
+}
+.button {
+    display: flex;
+    padding-top: 3vh;
+}
+
+/* .rechts:nth-of-type(1) {
+    margin-left: auto;
+margin-right: auto;} */
+
+/* .rechts {
+    margin-left: 40%;
+} */

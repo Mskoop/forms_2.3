@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe_2-3_forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <!-- <label for="Name">Name</label> -->
+            <legend>Vorname</legend>
+            <input type="text" name="Vorname" id="Vorname" placeholder="Name"  class="rechts1">
+        </div>
+        <div>
+           <!--  <label for="Surname">Surname</label> -->
+           <legend>Surname</legend>
+            <input type="text" name="Surname" id="Surname" placeholder="Surname" class="rechts2">  
+        </div>
+        <div>
+            <!-- <label for="email">Email</label> -->
+            <legend>Email</legend>
+            <input type="text" name="Email" id="Email" placeholder="Email" class="rechts3">
+        </div>
+        <div>
+            <legend>Gender</legend>
+            <div class="rechts4">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="male">
+            </div>
+            <div>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="female">
+            </div>
+        </div>
+        <div>
+            <legend>Picture</legend>
+            <div class="rechts5">
+            <input type="file" name="picture" id="picture">
+        </div>
+        </div>
+        <div>
+            <legend>Country</legend>
+            <select name="coutry" id="coutry" class="rechts6">
+                <option value="Germany">Germany</option>    
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+            </select>
+        </div>
+        <div>
+            <legend>Preffered Languages</legend>
+            <select name="Languages" id="" multiple="multiple" class="rechts7">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+                <option value="">React</option>
+            </select>
+        </div>
+        <div>
+            <legend>Field of Activity</legend>
+                <div class="rechts8">
+                <input type="checkbox" name="IT" id="it" value="it">
+                <label for="IT">IT</label>
+                </div> 
+                <div>
+               <input type="checkbox" name="design" id="design">
+               <label for="design">DESIGN</label> 
+                </div>
+                <div>
+                <input type="checkbox" name="Others" id="others">
+                    <label for="other">OTHERS</label>
+                </div>
+        </div>
+        <div class="button">
+        <div>
+                <input type="submit" value="send">
+            </div>
+            <div>
+                <input type="button" value="cancel">
+            </div>
+        </div>
+
+       
+
+
+
+
+    </form>
+</body>
+</html>
